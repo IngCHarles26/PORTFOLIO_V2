@@ -1,6 +1,6 @@
 import { D } from "../main";
 
-type Tag = 'div' | 'p' | 'header' | 'nav' | 'button' | 'a'
+type Tag = 'div' | 'p' | 'header' | 'nav' | 'button' | 'a' | 'section' | 'svg'
 
 
 export const createElement = (tag:Tag,style:string,text?:string):HTMLElement => {

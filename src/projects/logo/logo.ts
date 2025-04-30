@@ -32,7 +32,7 @@ export function faceLogo() {
 }
 
 export function nameLogo() {
-  const div = createElement('div',stlyeLogo)
+  const div = createElement('div','font-Cal_Sans text-xl flex flex-col items-center py-1 px-2')
 
   const style = 'h-5 flex items-center text-neutral-300'
   const p1 = createElement('p',style,'Carlos')

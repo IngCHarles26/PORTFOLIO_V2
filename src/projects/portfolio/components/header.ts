@@ -3,7 +3,7 @@ import { faceLogo } from "../../logo/logo";
 
 
 export function headerPortfolio(){
-  const header = createElement('header','flex justify-center')
+  const header = createElement('header','flex justify-center pb-10')
   
   const navBar = createElement('nav','flex justify-between items-center w-full max-w-[60rem] p-2')
   
